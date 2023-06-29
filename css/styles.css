@@ -30,6 +30,13 @@
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* ========================COMPONENTS===================== */
 
 .section-description {
@@ -107,18 +114,17 @@
 }
 .header {
   background-color: var(--body-theme-light);
-  padding-top: 40px;
-  padding-bottom: 40px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-list {
-  display: flex;
   margin-right: 40px;
   padding-bottom: 24px;
+  margin: 0 auto;
+  display: flex;
   align-items: center;
-  gap: 40px;
   justify-content: flex-end;
+  gap: 40px;
 }
 
 .header-link {
@@ -223,12 +229,6 @@
 body {
   background-color: var(--body-theme-light);
   font-family: Roboto, sans-serif;
-}
-
-.container {
-  width: 1158;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 h1,

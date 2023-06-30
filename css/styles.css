@@ -31,7 +31,6 @@
 }
 
 .container {
-  display: flex;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -80,12 +79,13 @@
 }
 
 /* ============================HEADER=============== */
-.page-header {}
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
-.container-header {}
-
-.header {
-  border-bottom: 1px, solid #e7e9fc;
+.container-header {
+  display: flex;
+  
 }
 
 .logo:hover,
@@ -167,15 +167,13 @@
 /* ========================HERO===================== */
 
 .page-hero {
-  display: flex;
   background-color: var(--hero-theme-dark);
   padding: 188px 0;
 }
 .hero-title {
-  align-items: center;
   max-width: 496px;
-
-  margin-top: 0px;
+ margin-left: auto;
+ margin-right: auto;
   margin-bottom: 48px;
   color: var(--hero-text-color);
 
@@ -249,19 +247,10 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 /* =============work================ */
 
 .work {
-
-}
-.page-work {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 120px;
+padding-bottom: 120px;
 }
 
-.work-item {
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 72px;
-}
+
 
 .work-card {
   display: flex;
@@ -324,11 +313,11 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 
 .page-footer {
  background-color: var(--footer-theme-dark);
-  color: var(--footer-text-color);
- 
+color: var(--footer-text-color);
+ padding: 100px 0;
 }
 .footer-logo {
-padding: 100px 0;
+
 }
 
 .footer-subtitle {

@@ -40,16 +40,7 @@
   border: 1px solid red;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
+
 /* ========================COMPONENTS===================== */
 
 .section-description {
@@ -225,7 +216,26 @@
 /* ====================about ==============*/
 
 .visually-hidden {
-  
+  position: absolute;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.page-future {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0;
+  margin-right: 0;
+  gap: 24px;
+}
+
+.future-item {
+  margin-bottom: 8px;
 }
 
 .future-text {
@@ -234,16 +244,6 @@
   padding: 0;
 }
 
-.page-future {
-  display: flex;
-  justify-content: space-between;
-  padding: 120px 0;
-  gap: 24px;
-}
-
-.future-item {
-  margin-bottom: 8px;
-}
 .galery-item {
 flex-basis: calc((100% - 3 * 24px) / 4);
 }
@@ -279,6 +279,9 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 
 /* ==================Employers==================== */
 
+.card {
+
+}
 .section-team {
   flex-wrap: wrap;
   padding: 120px 0;
@@ -295,10 +298,15 @@ flex-basis: calc((100% - 3 * 24px) / 4);
   display: flex;
   justify-content: space-between;
   background: var(--white, #ffffff);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .imag-team {
   margin-bottom: 32px;
+}
+
+.employeers-wrapper {
+  padding: 32px 16px;
 }
 
 .employeers {
@@ -306,12 +314,12 @@ flex-basis: calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
 }
 
-.employeers-wrapper {
-  padding: 32px 16px;
+.position {
+  text-align: center;
 }
 
 .galary-employeers {
-  flex-basis: calc((100% - 2 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 

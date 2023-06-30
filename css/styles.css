@@ -167,14 +167,13 @@
 /* ========================HERO===================== */
 
 .page-hero {
+  display: flex;
   background-color: var(--hero-theme-dark);
   padding: 188px 0;
 }
 .hero-title {
   align-items: center;
   max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
 
   margin-top: 0px;
   margin-bottom: 48px;
@@ -314,9 +313,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
 }
 
-.position {
-  text-align: center;
-}
+.position {}
 
 .galary-employeers {
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -328,7 +325,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 .page-footer {
  background-color: var(--footer-theme-dark);
   color: var(--footer-text-color);
-  display: flex;
+ 
 }
 .footer-logo {
 padding: 100px 0;
@@ -411,15 +408,3 @@ address {
 }
 
 /* ============HEADER======== */
-
-work-item {
-  width: 1128px;
-  height: 412px;
-  flex-shrink: 0;
-}
-
-work-image {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-}

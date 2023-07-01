@@ -12,6 +12,7 @@
   --footer-text-color: #f4f4fd;
   --footer-theme-dark: #2e2f42;
   --accent-color: #404bbf;
+  --border-color: #e7e9fc;
 }
 
 .body {
@@ -282,9 +283,6 @@
   padding: 32px 16px;
   background: var(--white, #fff);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .employeers-wrapper {
@@ -350,6 +348,7 @@ position {
 .navi-portfolio {
   padding: 12px 24px;
   border-radius: 4px;
+  border: 1px solid var(--border-color);
 }
 
 .card-content {
@@ -360,7 +359,7 @@ position {
 }
 
 .list-border {
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-color);
   border-top: none;
 }
 
@@ -369,7 +368,7 @@ position {
 }
 
 .projects {
-  margin: 32px 16px;
+  padding: 32px 16px;
 }
 
 .proj-title {
@@ -392,7 +391,7 @@ position {
 .btn-filter:focus {
   color: #ffffff;
   background-color: var(--accent-color, #404bbf);
-  border: 1px, solid transparent;
+  border: 1px solid transparent;
 }
 
 /* ===============RESET-START============= */
@@ -407,7 +406,7 @@ h2,
 h3,
 h4,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 ul {

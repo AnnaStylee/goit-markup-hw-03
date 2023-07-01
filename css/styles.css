@@ -359,14 +359,17 @@ position {
   row-gap: 48px;
 }
 
+.list-border {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-item {
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 .projects {
   margin: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 
 .proj-title {

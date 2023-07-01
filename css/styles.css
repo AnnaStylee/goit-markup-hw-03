@@ -36,7 +36,6 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
 }
 
 /* ========================COMPONENTS===================== */
@@ -46,7 +45,6 @@
   margin-bottom: 24px;
 
   color: var(--body-text-color-dark);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -226,7 +224,6 @@
 
 .page-future {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
 }
 
@@ -240,7 +237,7 @@
   padding: 0;
 }
 
-.galery-item {
+.gallery-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /* =============work================ */
@@ -254,14 +251,13 @@
 
 .work-card {
   display: flex;
-
   gap: 24px;
 }
 
 .work-image {
   border: 1px solid var(--cornflower, #e7e9fc);
 }
-.galary-work {
+.gallery-work {
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
@@ -270,6 +266,12 @@
 .card {
   padding: 120px 0;
 }
+
+.card-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
 .section-team {
   display: flex;
   gap: 24px;
@@ -277,32 +279,26 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.card-title {
-  margin-bottom: 72px;
-}
-
-.card-team {
-  background: var(--white, #ffffff);
-}
-
 .imag-team {
   margin-bottom: 32px;
 }
 
 .employeers-wrapper {
+  display: flex;
   text-align: center;
   padding: 32px 16px;
 }
 
 .employeers {
+  text-align: center;
   margin-bottom: 8px;
 }
 
 .position {
-  flex-direction: column;
+  text-align: center;
 }
 
-.gallery-item {
+.gallery-items {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -341,7 +337,7 @@
 /* ========================PORTFOLIO====================== */
 
 .portfolio {
-  padding: 96px 72px;
+  padding: 96px 120px;
 }
 
 .page-portfolio {

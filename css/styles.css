@@ -345,12 +345,6 @@ position {
   margin-bottom: 72px;
 }
 
-.navi-portfolio {
-  padding: 12px 24px;
-  border-radius: 4px;
-  border: 1px solid var(--border-color);
-}
-
 .card-content {
   display: flex;
   flex-wrap: wrap;
@@ -385,6 +379,11 @@ position {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  border: none;
+
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
 }
 
 .btn-filter:hover,

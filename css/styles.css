@@ -352,8 +352,6 @@
 }
 
 .list-border {
-  border: 1px solid var(--border-color);
-  border-top: none;
 }
 
 .portfolio-item {
@@ -362,6 +360,8 @@
 
 .projects {
   padding: 32px 16px;
+  border: 1px solid var(--border-color);
+  border-top: none;
 }
 
 .proj-title {

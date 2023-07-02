@@ -55,7 +55,6 @@
 
 .description-title {
   display: flex;
-  width: 264px;
   flex-direction: column;
   gap: 8px;
 

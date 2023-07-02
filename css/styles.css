@@ -82,12 +82,15 @@
   display: flex;
 }
 
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color, #404bbf);
-}
+.site-nav {
+  display: flex;
+  align-items: center;
 
-.logo-span {
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   color: #2e2f42;
 }
 
@@ -102,14 +105,12 @@
   text-transform: uppercase;
 }
 
-.site-nav {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color, #404bbf);
+}
+
+.logo-span {
   color: #2e2f42;
 }
 
@@ -144,14 +145,13 @@
 }
 
 .header-list {
-  padding-bottom: 24px;
-  padding-top: 24px;
   display: flex;
-  align-items: center;
   gap: 40px;
 }
+
 .menue {
-  display: inline-block;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .header-link {
@@ -282,6 +282,10 @@
   gap: 24px;
 }
 
+.imag-team {
+  border-radius: 0px 0px 4px 4px;
+}
+
 .card-team {
   text-align: center;
   padding: 32px 16px;
@@ -292,11 +296,11 @@
 }
 
 .employeers {
+  text-align: center;
   margin-bottom: 8px;
 }
 
-.imag-team {
-  border-radius: 0px 0px 4px 4px;
+.position {
 }
 
 .gallery-items {

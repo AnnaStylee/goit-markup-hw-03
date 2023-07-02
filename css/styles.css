@@ -283,7 +283,6 @@
   text-align: center;
   padding: 32px 16px;
   background: var(--white, #fff);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .employeers-wrapper {
@@ -293,8 +292,8 @@
   margin-bottom: 8px;
 }
 
-position {
-  text-align: center;
+.imag-team {
+  border-radius: 0px 0px 4px 4px;
 }
 
 .gallery-items {

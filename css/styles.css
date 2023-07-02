@@ -144,6 +144,7 @@
 }
 
 .header-list {
+  display: inline-block;
   padding-bottom: 24px;
   padding-top: 24px;
   display: flex;

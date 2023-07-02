@@ -144,12 +144,14 @@
 }
 
 .header-list {
-  display: inline-block;
   padding-bottom: 24px;
   padding-top: 24px;
   display: flex;
   align-items: center;
   gap: 40px;
+}
+.menue {
+  display: inline-block;
 }
 
 .header-link {
